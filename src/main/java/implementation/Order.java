@@ -2,7 +2,9 @@ package implementation;
 
 import api.IOrder;
 import api.IPizza;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Order implements IOrder {
     private IPizza pizza;
 

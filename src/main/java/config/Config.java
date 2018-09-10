@@ -16,8 +16,8 @@ public class Config {
         return new ExoticPizza(19,"Exotic");
     }
 
-    @Bean(name = "Iorder")
-    public IOrder order(IPizza pizza){
-        return  new Order(pizza);
-    }
+//    @Bean(name = "Iorder")
+//    public IOrder order(IPizza pizza){
+//        return  new Order(pizza);
+//    }
 }
