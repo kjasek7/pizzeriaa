@@ -26,7 +26,6 @@ public class ExclusiveOrder implements IOrder {
 
     @Autowired
     public void setPizza(IPizza pizza) {
-        pizza.setPrice(23);
         this.pizza = pizza;
     }
 

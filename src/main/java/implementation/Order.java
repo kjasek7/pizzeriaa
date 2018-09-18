@@ -10,7 +10,6 @@ public class Order implements IOrder {
 
     public Order(IPizza pizza){
         super();
-        pizza.setPrice(10);
         this.pizza = pizza;
     }
 
